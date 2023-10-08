@@ -14,10 +14,3 @@ const nextConfig = {
 
 module.exports = withMDX(nextConfig);
 
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  
-}
-
-module.exports = nextConfig
