@@ -7,6 +7,17 @@ const nextConfig = {
   pageExtensions: ["js", "jsx", "mdx"],
   reactStrictMode: true,
   swcMinify: true,
+  output: "export",
+
+
 };
 
 module.exports = withMDX(nextConfig);
+
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  
+}
+
+module.exports = nextConfig
